@@ -30,6 +30,23 @@
 
 
   
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-979BM8QZ79"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-979BM8QZ79');
+        }
+      </script>
+    
+  
 
 
 <meta property="og:url" content="http://localhost:1313/">
@@ -55,10 +72,10 @@
     :root {
         --text-color: #343a40;
         --text-secondary-color: #6c757d;
-        --text-link-color: #007bff;
+        --text-link-color: #D23200;
         --background-color: #eaedf0;
         --secondary-background-color: #64ffda1a;
-        --primary-color: #007bff;
+        --primary-color: #D23200;
         --secondary-color: #f8f9fa;
 
          
@@ -278,17 +295,17 @@ Adam Lastovka
                 
                 <ul>
                     
-                    <li>Simulation</li>
+                    <li>Systems Engineering</li>
                     
-                    <li>Model Based Design</li>
+                    <li>Mechatronics</li>
                     
                     <li>Control Systems</li>
                     
-                    <li>Systems Design</li>
+                    <li>Modeling &amp; Simulation</li>
                     
-                    <li>Autonomous Robotics</li>
+                    <li>Optics</li>
                     
-                    <li>ML: Computer Vision + Optimization</li>
+                    <li>Optimization</li>
                     
                 </ul>
                 
@@ -351,6 +368,76 @@ Adam Lastovka
         <div class="row justify-content-center px-3 px-md-5">
             
             <div class="col-lg-4 col-md-6 my-3">
+                <div class="card my-3 h-100" title="qPCR Spectral Optimization">
+                    <div class="card-head">
+                        <img class="card-img-top" src="/images/projects/fluorophoreOptimisation.png" alt="qPCR Spectral Optimization">
+                    </div>
+                    <div class="card-body bg-transparent p-3">
+                        <div class="pb-2 bg-transparent">
+                            
+                            <span class="badge badge-secondary">Simulation</span>
+                            
+                            <span class="badge badge-secondary">Optics</span>
+                            
+                            <span class="badge badge-secondary">Biotech</span>
+                            
+                        </div>
+                        <h5 class="card-title bg-transparent mt-1">qPCR Spectral Optimization</h5>
+                        <div class="card-text bg-transparent secondary-font">
+                            Optmization of fluorophore and filter selection for qPCR based pathogen detection.
+                        </div>
+                    </div>
+                    
+                    <div class="card-footer py-3">
+                        
+                        <span class="m-1 mx-2">
+                            <a href="https://github.com/adamLastovka/SpectralCrosstalkOptimization" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </span>
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 my-3">
+                <div class="card my-3 h-100" title="Protein Crystallography Instrument">
+                    <div class="card-head">
+                        <img class="card-img-top" src="/images/projects/labelledPlungeCooler.png" alt="Protein Crystallography Instrument">
+                    </div>
+                    <div class="card-body bg-transparent p-3">
+                        <div class="pb-2 bg-transparent">
+                            
+                            <span class="badge badge-secondary">Systems Design</span>
+                            
+                            <span class="badge badge-secondary">Mechatronics</span>
+                            
+                            <span class="badge badge-secondary">Process Engineering</span>
+                            
+                        </div>
+                        <h5 class="card-title bg-transparent mt-1">Protein Crystallography Instrument</h5>
+                        <div class="card-text bg-transparent secondary-font">
+                            Optimization and development of time-resolved protein crystallography instrument.
+                        </div>
+                    </div>
+                    
+                    <div class="card-footer py-3">
+                        
+                        <span class="m-1 mx-2">
+                            <a href="https://journals.iucr.org/paper?S205225252500288X" target="_blank">
+                                <i class="fas fa-book-open"></i>
+                            </a>
+                        </span>
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 my-3">
                 <div class="card my-3 h-100" title="Drop dispenser optimization">
                     <div class="card-head">
                         <img class="card-img-top" src="/images/projects/dropDispensing.JPG" alt="Drop dispenser optimization">
@@ -367,7 +454,7 @@ Adam Lastovka
                         </div>
                         <h5 class="card-title bg-transparent mt-1">Drop dispenser optimization</h5>
                         <div class="card-text bg-transparent secondary-font">
-                            Automatic optimization of drop dispenser for precision substrate deposition
+                            Automatic optimization of drop dispenser for precision substrate deposition.
                         </div>
                     </div>
                     
@@ -393,7 +480,7 @@ Adam Lastovka
                         </div>
                         <h5 class="card-title bg-transparent mt-1">Adaptive path following for 7DOF manipulator</h5>
                         <div class="card-text bg-transparent secondary-font">
-                            
+                            Dynamic simulation and adaptive path following algorithms for 7DOF mobile manipulator.
                         </div>
                     </div>
                     
@@ -417,7 +504,7 @@ Adam Lastovka
                         </div>
                         <h5 class="card-title bg-transparent mt-1">6DOF Fixed Wing simulator</h5>
                         <div class="card-text bg-transparent secondary-font">
-                            Simulation of fixed wing plane for HIL AND SIL design verification
+                            Simulation of fixed wing plane for HIL AND SIL design verification.
                         </div>
                     </div>
                     
@@ -454,7 +541,7 @@ Adam Lastovka
                         </div>
                         <h5 class="card-title bg-transparent mt-1">Phase Retrieval algorithm</h5>
                         <div class="card-text bg-transparent secondary-font">
-                            Algorithm for generating phase masks to achieve any arbitrary intensity field for laser micromachining
+                            Algorithm for generating phase masks to achieve any arbitrary intensity field for laser micromachining.
                         </div>
                     </div>
                     
@@ -489,7 +576,7 @@ Adam Lastovka
                         </div>
                         <h5 class="card-title bg-transparent mt-1">Wave Propagation Simulation</h5>
                         <div class="card-text bg-transparent secondary-font">
-                            Simulation of an entire laser micromachining system with an SLM beam shaper
+                            Simulation of an entire laser micromachining system with an SLM beam shaper.
                         </div>
                     </div>
                     
@@ -589,7 +676,7 @@ Adam Lastovka
                     </a>
                 </div>
             
-            &copy; 2024  All Rights Reserved
+            &copy; 2025  All Rights Reserved
             <div class="text-secondary">
                 Based on
                 <a href="https://github.com/gurusabarish/hugo-profile" target="_blank"
@@ -632,6 +719,24 @@ Adam Lastovka
 
 
 
+
+
+<!-- MathJax -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js" integrity="sha384-M5jmNxKC9EVnuqeMwRHvFuYUE8Hhp0TgBruj/GZRkYtiMrCRgH7yvv5KY+Owi7TW" crossorigin="anonymous"></script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [['\\(','\\)']],
+        displayMath: [['$$','$$'], ['\[','\]']],
+        processEscapes: true,
+        processEnvironments: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        TeX: { equationNumbers: { autoNumber: "AMS" },
+             extensions: ["AMSmath.js", "AMSsymbols.js"] }
+      }
+    });
+</script>
 
 
 
